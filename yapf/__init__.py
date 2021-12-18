@@ -32,7 +32,7 @@ import logging
 import os
 import sys
 
-from lib2to3.pgen2 import tokenize
+from .ylib2to3.pgen2 import tokenize
 
 from yapf.yapflib import errors
 from yapf.yapflib import file_resources

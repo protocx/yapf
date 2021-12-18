@@ -36,7 +36,7 @@ import difflib
 import re
 import sys
 
-from lib2to3.pgen2 import parse
+from ..ylib2to3.pgen2 import parse
 
 from yapf.yapflib import blank_line_calculator
 from yapf.yapflib import comment_splicer

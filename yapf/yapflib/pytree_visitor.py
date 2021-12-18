@@ -26,7 +26,7 @@ a pytree into a stream.
 
 import sys
 
-from lib2to3 import pytree
+from ..ylib2to3 import pytree
 
 from yapf.yapflib import pytree_utils
 

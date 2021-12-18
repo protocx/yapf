@@ -25,7 +25,7 @@ from yapf.yapflib import pytree_utils
 from yapf.yapflib import split_penalty
 from yapf.yapflib import style
 
-from lib2to3.fixer_util import syms as python_symbols
+from ..ylib2to3.fixer_util import syms as python_symbols
 
 
 class UnwrappedLine(object):

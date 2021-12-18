@@ -25,8 +25,8 @@ import collections
 import heapq
 import re
 
-from lib2to3 import pytree
-from lib2to3.pgen2 import token
+from ..ylib2to3 import pytree
+from ..ylib2to3.pgen2 import token
 
 from yapf.yapflib import format_decision_state
 from yapf.yapflib import format_token

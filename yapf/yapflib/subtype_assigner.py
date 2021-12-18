@@ -25,9 +25,9 @@ Annotations:
       of subtypes.
 """
 
-from lib2to3 import pytree
-from lib2to3.pgen2 import token
-from lib2to3.pygram import python_symbols as syms
+from ..ylib2to3 import pytree
+from ..ylib2to3.pgen2 import token
+from ..ylib2to3.pygram import python_symbols as syms
 
 from yapf.yapflib import format_token
 from yapf.yapflib import pytree_utils

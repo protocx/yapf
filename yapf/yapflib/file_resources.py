@@ -21,7 +21,7 @@ import fnmatch
 import os
 import re
 
-from lib2to3.pgen2 import tokenize
+from ..ylib2to3.pgen2 import tokenize
 
 from yapf.yapflib import errors
 from yapf.yapflib import py3compat

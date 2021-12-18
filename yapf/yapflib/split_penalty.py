@@ -15,7 +15,7 @@
 
 import re
 
-from lib2to3 import pytree
+from ..ylib2to3 import pytree
 
 from yapf.yapflib import format_token
 from yapf.yapflib import py3compat
