@@ -50,6 +50,7 @@ with codecs.open('README.rst', 'r', 'utf-8') as fd:
       maintainer='Bill Wendling',
       maintainer_email='morbo@google.com',
       packages=find_packages('.'),
+      package_data={'yapf': ['yapf/ylib2to3/*.txt']},
       classifiers=[
           'Development Status :: 4 - Beta',
           'Environment :: Console',
