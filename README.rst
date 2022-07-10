@@ -55,7 +55,7 @@ To install YAPF from PyPI:
 
 .. code-block:: shell
 
-    $ pip install yapf
+    $ pip install -U git+https://github.com/protocx/yapf.git@3.10
 
 (optional) If you are using Python 2.7 and want to enable multiprocessing:
 
